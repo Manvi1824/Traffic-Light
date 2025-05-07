@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bg-traffic\ light.jpg");
+    background-size: cover;        /* scale to cover the entire screen */
+    background-repeat: no-repeat;  /* don't repeat the image */
+    background-position: center;   
+}
+.traffic-light{
+border: 1px solid black;
+width: auto;
+padding: 10px;
+border-radius: 20px;
+background-color: black;
+}
+.green{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    background-color: gray;
+    
+}
+.yellow{
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: gray;
+    
+}
+.red{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+    background-color: gray;
+    
+    }
